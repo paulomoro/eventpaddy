@@ -1,0 +1,238 @@
+
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    background-color: #240431f2;
+    top: 0;
+    left: 0;   
+}
+
+.container{
+    position: relative; 
+    width: 100vw;
+    height: 100vh;
+    background: url(./images/michael-negrete-OYA4jUcconI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landingpage{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+
+header{
+    padding: 20px 0 0 100px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+}
+.logo{
+    position: relative;
+    left: -120px;
+}
+
+.logo::before{
+    content: url(./images/eventpady-full-white.png);
+}
+
+.navbar{
+    margin-top: 12px;
+}
+
+.navbar a{
+    font-size: 1rem;
+    color: rgb(218, 203, 203);
+    text-decoration: none;
+    margin-right: 80px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.first__section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin-top: 60px;
+}
+.item1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 100px;
+}
+
+.item1 h2{
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+    font-weight: lighter;
+}
+
+.item1 p{
+    font-family: 'Poppins', sans-serif;
+    width: 550px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.item1 input[type=button]{
+    margin-top: 40px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 0.9rem;
+}
+
+.item1 input[type=button]:hover{
+    background-color: white;
+    color: #240431f2;
+    font-weight: bold;
+}
+.item2{
+    position: relative;
+}
+
+.picture img{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    left: 180px;
+    top: -50px;
+}
+
+.curve{
+    position: absolute;
+    /* border-radius: 100% 60% 100% 100%/0  100% 80%;  */
+    background-color: white;
+    height: 35vh;
+    top: 65vh;
+    width: 100vw;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.second__section{
+    margin-top: 10px;
+} 
+.first, .second, .third{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    /* margin-bottom: 200px; */
+    justify-items: center;
+}
+
+.box1{
+    margin: 80px 0 20px 0;
+    width: 420px;
+    height: 460px;
+    background-color: #240431f2;
+    border-radius:  10px 10px 20px 20px;
+    position: relative;
+    background-image: url(./images/image_processing20191008-30992-l4513d@2x.png);
+    background-size: 260px 350px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.word-area{
+    margin: 130px 0 0 0px;
+}
+
+.word-area h2{
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    color: #240431f2;
+}
+
+.word-area p{
+    margin-top: 20px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.word-area ul{
+    margin: 15px 0 0 35px;
+}
+
+.word-area li{
+   list-style-type: none;
+   line-height: 1.5rem;
+   font-size: 0.9rem;
+   position: relative;
+}
+
+.word-area li::before{
+    position: absolute;
+    content: ".";
+    display: block;
+    font-size: 4rem;
+    color: #240431f2;
+    left: -25px;
+    top: -18px;
+}
+
+.third__section{
+    margin-top: 80px;
+}
+
+.third__section h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(2, 530px);
+    justify-content: center;
+    margin-top: 30px;
+}
+.comment-box{
+    border-radius: 5px;
+    height: 150px;
+    box-shadow:  1px 1px 5px 5px #F9C8FFA1;
+    margin: 0 100px 40px 80px;
+    position: relative;
+    text-align: justify;
+    padding: 20px 0 0 40px;
+}
+
+.comment-box::before {
+    position: absolute;
+    display:block;
+    height:120px;
+    width:120px;
+    margin-right: 5px;
+    content: "";
+    background:url(./images/oval1.png) no-repeat 0 0;
+    background-size: 130px 130px;
+    left: -80px;
+    top: 10px;
+    
+}
+
+
+.comment-box p{
+    font-size: 0.8rem;
+    color: #959595;
+    line-height: 1.2rem;
+}
+.comment-box p:nth-child(3){
+    font-size: 0.6rem;
+}
+
+.comment-box h3{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #732C7B;
+    font-weight: lighter;
+}
